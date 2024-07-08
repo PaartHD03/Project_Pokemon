@@ -1,16 +1,30 @@
-Pokémon Game Project
+# Pokémon Game Project
 
-Core Classes:
-Pokémon: Represents a Pokémon with attributes like name, type, health, etc. Methods include attack calculations, damage handling, experience gain, level up, and move management.
-Move: Defines attributes and methods for Pokémon moves, including type, power, accuracy, and effects.
-Trainer: Manages a trainer with a team of Pokémon and an inventory of items. Methods include catching Pokémon, using items, and engaging in battles.
-Item: Represents items with effects that can be applied to Pokémon.
-Inheritance:
-Pokémon subclasses for different types (Fire, Water, etc.) with unique stats and moves.
-Move subclasses categorize moves (Physical, Special) or include specific effects.
-Gameplay Mechanics:
-Turn-based battle system with move selection and damage calculation.
-Random number generation for accuracy checks and handling status effects (poison, paralysis).
-Additional Features:
-Pokémon catching using different Pokeball types with varying catch rates.
-Evolution system based on level or specific items.
+## Core Classes
+
+### Pokémon
+- Attributes: Name, type, health, ...
+- Methods: Attack, Take Damage, Gain experience, ...
+
+### Move
+- Attributes: Name, type, power, accuracy, ...
+- Methods: Apply effect, ...
+
+### Trainer
+- Attributes: Name, team, inventory, ...
+- Methods: Catch Pokémon, Use item, Battle, ...
+
+### Item
+- Attributes: Name, type, effect
+- Methods: Use, ...
+
+## Inheritance
+
+- Pokémon subclasses: Fire Pokémon, Water Pokémon, ...
+- Move subclasses: Physical Move, Special Move, ...
+
+## Gameplay Mechanics
+
+- Battle system: Turn-based combat, move selection, ...
+- Pokémon catching: Pokeball class, catch rates, ...
+- Additional features: Evolution system, ...
